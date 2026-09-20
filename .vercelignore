@@ -1,0 +1,8 @@
+.git
+.DS_Store
+._*
+*.zip
+Investopia
+scripts
+AUDIT.md
+assets/php
