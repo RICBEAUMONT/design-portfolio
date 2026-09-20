@@ -4,3 +4,5 @@
 /test-folio-91f222.webflow.zip
 
 .vercel/
+.vercel
+.env*
