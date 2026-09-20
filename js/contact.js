@@ -12,7 +12,7 @@
     var message = form.elements.namedItem('message').value.trim();
     var subject = 'Portfolio enquiry' + (name ? ' from ' + name : '');
     var body = 'Name: ' + name + '\r\nEmail: ' + email + '\r\n\r\n' + message;
-    window.location.href = 'mailto:info@bransol.net?subject=' +
+    window.location.href = 'mailto:ricardo@bransol.net?subject=' +
       encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
   });
 }());
