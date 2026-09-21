@@ -794,6 +794,15 @@ img {
   flex-direction: column;
 }
 
+.project-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  background-color: #000;
+  object-fit: contain;
+}
+
 .grid-2 {
   margin-top: 40px;
   -ms-grid-columns: 1fr 1fr 1fr;
