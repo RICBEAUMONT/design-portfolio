@@ -803,6 +803,14 @@ img {
   object-fit: contain;
 }
 
+.grid-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background-color: #000;
+  object-fit: cover;
+}
+
 .grid-2 {
   margin-top: 40px;
   -ms-grid-columns: 1fr 1fr 1fr;
